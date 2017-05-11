@@ -1,13 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
-{
-    "type": "chrome",
-    "request": "launch",
-    "name": "Launch Chrome",
-    "sourceMaps": false,
-    "file": "${workspaceRoot}/d3_demo.html"
-},
-
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "sourceMaps": false,
+            "file": "${workspaceRoot}/d3_demo.html"
+        }
     ]
 }

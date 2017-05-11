@@ -1,13 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
-{
-    "type": "chrome",
-    "request": "launch",
-    "name": "Launch Chrome",
-    "sourceMaps": false,
-    "file": "${workspaceRoot}/index.html"
-},
-
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "sourceMaps": false,
+            "webRoot": "${workspaceRoot}/index.html"
+        }
     ]
 }
